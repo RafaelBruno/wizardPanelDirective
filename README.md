@@ -12,9 +12,9 @@ required:
 
 Usage
 
-1 - Include wizard.js in our html code
+1 - Include <a href="http://humlab.com.br/projects/wizardPanelDirective/wizard.js">wizard.js</a> in your html code
 
-2 - Include wizard.css in our head tag
+2 - Include <a href="http://humlab.com.br/projects/wizardPanelDirective/wizard.css">wizard.css</a> in your head tag
 
 3 - Inject 'wizard-module' in your angular module
 	
