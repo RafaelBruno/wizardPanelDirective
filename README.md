@@ -69,7 +69,7 @@ Obs:
 	//<required></required>
 * This tag indicates a required field
 
-	//<required type="panel" panel-title="Required Field"></required>
+	//required type="panel" panel-title="Required Field"
 * This tag indicates a required field in the panel format
 
 	//next-label="Next" and back-label="Back"
