@@ -63,15 +63,15 @@ Usage
 	</wizard>
 
 
-* <required> 
-	This tag indicates a required field
+<required> 
+*This tag indicates a required field
 
-* <required type="panel" panel-title="Required Field"> 
-	This tag indicates a required field in the panel format
+<required type="panel" panel-title="Required Field"> 
+* This tag indicates a required field in the panel format
 
-* next-label="Next" and back-label="Back"
-	Label of the next button and back button
+next-label="Next" and back-label="Back"
+* Label of the next button and back button
 
-* alert-label="Fill out all required fields"
-	Label of the required alert message 
+alert-label="Fill out all required fields"
+* Label of the required alert message 
 
