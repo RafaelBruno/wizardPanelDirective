@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="wizard">
+<html lang="en" ng-app="wizard-module">
 <head>
 	<meta charset="UTF-8">
 	<title>Wizard Panel</title>
@@ -9,11 +9,17 @@
 	<link href="img/favicon.ico" rel="icon" type="image/x-icon" />
 </head>
 <body>
-	<a href="https://github.com/RafaelBruno/angular-blackjack" class="forkme"><img src="forkme.png" alt=""
+	<a href="https://github.com/RafaelBruno/wizardPanelDirective" class="forkme"><img src="forkme.png" alt=""
 		style="position:absolute;top:0"></a>
 		<div class="page-header">
-			<h1>&emsp;&emsp;&emsp;&emsp;Wizard Panel Bootstrap <small>Angular directive + Bootstrap + Jquery</small></h1>
+			<h1>&emsp;&emsp;&emsp;&emsp;Wizard Panel Bootstrap <small>Angular directive + Bootstrap + Jquery</small>
+			<a class="pull-right"
+			style="font-size:18px;margin:15px;" href="https://twitter.com/rafaelbrunoweb">
+				@rafaelbrunoweb
+			</a>
+			</h1>
 		</div>
+
 		<div class="panel-body">
 			<wizard next-label="Next" back-label="Back" 
 			alert-label="Fill out all required fields">
@@ -53,9 +59,9 @@
 			<wizardstep paneltitle="Final Step"> 
 				<div class="jumbotron">
 					<h1>Last step</h1>
-					<p>the progressbar sucess marks the last step of the wizard</p>
+					<p>the progress-bar success marks the last step of the wizard</p>
 					<p>
-						<a class="btn btn-primary btn-lg" href="#" role="button">
+						<a class="btn btn-primary btn-lg" href="https://github.com/RafaelBruno/wizardPanelDirective" role="button">
 							<i class="fa fa-github"></i>&ensp;GitHub
 						</a>
 					</p>

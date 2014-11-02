@@ -1,4 +1,4 @@
-$wizard = angular.module("wizard", []);
+$wizard = angular.module("wizard-module", []);
 
 $wizard.directive('wizard', function($timeout) {
 	return {
